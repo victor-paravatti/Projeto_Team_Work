@@ -48,7 +48,7 @@ class Header extends Component {
                         <li>
                             <img className="responsive-img" src="https://ik.imagekit.io/VictorParavatti/Aula_desenvolvimento_de_redes/surface-AKOlQ6dE8Nc-unsplash_3__ktTDydVxz.jpg?updatedAt=1636836767726"/> 
                             <div className ="caption center-align">
-                            <h3 className ="black-text">Siga o seu caminho </h3>
+                            <h3 className ="black-text">Tenha a melhor equipe </h3>
                             <h5 className ="black-text"></h5>
                             </div>
                         </li>

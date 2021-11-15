@@ -18,20 +18,24 @@ class Navabar extends Component {
     render() {
         return (
             <div>
-                <nav>
-                    <div className="nav-wrapper teal lighten-2">
+                <div className="navbar-fixed">
+                    <nav>
+                        <div className=" nav-wrapper teal lighten-2">
 
-                        <a href="\" className="brand-logo center"><i className="large material-icons">ac_unit</i>&nbsp;Team Work</a>
-                        <ul id="nav-mobile" className="right hide-on-med-and-down">
-                            <li><a className="yellow-text lighten-4-text" href="#">Home</a></li>
-                            <li><a className="yellow-text lighten-4-text" href="#">Login</a></li>
-                            <li><a className="yellow-text lighten-4-text" href="#">Sobre</a></li>
-                        </ul>
-                        <ul id="nav-desktop" className="left hide-on-large-only">
-                            <li><a href="#" data-target="slide-out" className="sidenav-trigger show-on-large"><i className="material-icons">menu</i></a></li>
-                        </ul>
-                    </div>
-                </nav>
+                            <a href="\" className="brand-logo center"><i className="large material-icons">ac_unit</i>&nbsp;Team Work</a>
+                            <ul id="nav-mobile" className="right hide-on-med-and-down">
+                                <li><a className="yellow-text lighten-4-text" href="#">Home</a></li>
+                                <li><a className="yellow-text lighten-4-text" href="#">Login</a></li>
+                                <li><a className="yellow-text lighten-4-text" href="#">Sobre</a></li>
+                            </ul>
+                            <ul id="nav-desktop" className="left hide-on-large-only">
+                                <li><a href="#" data-target="slide-out" className="sidenav-trigger show-on-large"><i className="material-icons">menu</i></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                </div>
+
 
                 <ul id="slide-out" className="sidenav">
                     <li><div className="user-view">
@@ -42,11 +46,11 @@ class Navabar extends Component {
                         <a href="#name"><span class="white-text name">Victor</span></a>
                         <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
                     </div></li>
-                    <li><a href="#!"><i class="material-icons"><img src="https://img.icons8.com/material-outlined/24/000000/github.png"/></i>conect-se com o GitHub</a></li>
+                    <li><a href="#!"><i class="material-icons"><img src="https://img.icons8.com/material-outlined/24/000000/github.png" /></i>conect-se com o GitHub</a></li>
                     <li><a href="#!"><i class="material-icons">person</i>Victor</a></li>
                     <li><div className="divider"></div></li>
                     <li><a href="#!"><i class="material-icons">reply</i>Logof</a></li>
-                    
+
                 </ul>
 
             </div>
