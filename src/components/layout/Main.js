@@ -14,7 +14,7 @@ class Main extends Component {
             <><div className="row ">
 
                 <div className="esp"></div>
-                <div className="col m12 l12 s1">
+                <div className="col m12 l12 s1 teal lighten-4">
                     <div className="col s1 m5 l5">
                         <div align="left">
                             <h4>O que o Team Works pode te ajudar ?

@@ -17,7 +17,8 @@ class Navabar extends Component {
 
     render() {
         return (
-            <div>
+            <section id="top">
+                <div>
                 <div className="navbar-fixed">
                     <nav>
                         <div className=" nav-wrapper teal lighten-2">
@@ -54,6 +55,9 @@ class Navabar extends Component {
                 </ul>
 
             </div>
+                
+            </section>
+            
         )
     }
 }
