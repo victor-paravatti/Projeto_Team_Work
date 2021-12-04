@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import M from 'materialize-css/dist/js/materialize.min.js'
-
-
+import M from 'materialize-css/dist/js/materialize.min.js';
+import { Link } from 'react-router-dom';
 
 class Navabar extends Component {
     componentDidMount() {
@@ -13,8 +12,6 @@ class Navabar extends Component {
 
     }
 
-
-
     render() {
         return (
             <section id="top">
@@ -25,8 +22,8 @@ class Navabar extends Component {
 
                             <a href="\" className="brand-logo center"><i className="large material-icons">ac_unit</i>&nbsp;Team Work</a>
                             <ul id="nav-mobile" className="right hide-on-med-and-down">
-                                <li><a className="yellow-text lighten-4-text" href="#">Home</a></li>
-                                <li><a className="yellow-text lighten-4-text" href="#">Login</a></li>
+                                <li><Link to = "/">Home</Link></li>
+                                <li><Link to = "/Cadastro">Criar Grupo</Link></li>
                                 <li><a className="yellow-text lighten-4-text" href="#">Sobre</a></li>
                             </ul>
                             <ul id="nav-desktop" className="left hide-on-large-only">

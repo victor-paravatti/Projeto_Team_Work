@@ -1,0 +1,43 @@
+.Cadastro {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+  padding: 20px;
+  margin: auto;
+  width: 70%;
+}
+
+.Cadastro-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Cadastro-logo {
+    animation: Cadastro-logo-spin infinite 20s linear;
+  }
+}
+
+.Cadastro-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Cadastro-link {
+  color: #61dafb;
+}
+
+@keyframes Cadastro-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

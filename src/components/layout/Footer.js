@@ -1,14 +1,9 @@
 import React, { Component } from "react";
 import M from 'materialize-css/dist/js/materialize.min.js'
-import '../../App.css'
+import '../css/Principal.css'
 import { Link } from "react-scroll";
 
-
-
-
 export class Footer extends Component {
-
-
     render() {
         return (
             <div>
@@ -22,10 +17,14 @@ export class Footer extends Component {
                             <div className="col l4 offset-l2 s12">
                                 <h5 className="white-text">Links Dos desenvolvedores</h5>
                                 <ul>
-                                    <li><a className="grey-text text-lighten-3" href="#!"><img src="https://img.icons8.com/material-outlined/30/000000/instagram-new--v2.png" />Demetrios Pantaleão</a></li>
-                                    <li><a className="grey-text text-lighten-3" href="#!"><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" />Demetrios Pantaleão</a></li>
                                     <li><a className="grey-text text-lighten-3" href="#!"><img src="https://img.icons8.com/material-outlined/30/000000/instagram-new--v2.png" />Guilherme Paravatti</a></li>
                                     <li><a className="grey-text text-lighten-3" href="#!"><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" />Victor-Paravatti</a></li>
+                                    <li><a className="grey-text text-lighten-3" href="#!"><img src="https://img.icons8.com/material-outlined/30/000000/instagram-new--v2.png" />Demetrios Pantaleão</a></li>
+                                    <li><a className="grey-text text-lighten-3" href="#!"><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" />Demetrios Pantaleão</a></li>
+                                    <li><a className="grey-text text-lighten-3" href="#!"><img src="https://img.icons8.com/material-outlined/30/000000/instagram-new--v2.png" />Thyago Arthur Higgins Domingues</a></li>
+                                    <li><a className="grey-text text-lighten-3" href="#!"><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" />Thyago Arthur Higgins Domingues</a></li>
+                                    <li><a className="grey-text text-lighten-3" href="#!"><img src="https://img.icons8.com/material-outlined/30/000000/instagram-new--v2.png" />Gabriel Da Silva Camargo</a></li>
+                                    <li><a className="grey-text text-lighten-3" href="#!"><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" />Gabriel Da Silva Camargo</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -48,4 +47,3 @@ export class Footer extends Component {
 }
 
 export default Footer
-

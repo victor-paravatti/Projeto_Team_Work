@@ -1,14 +1,8 @@
 import React, { Component } from "react";
 import M from 'materialize-css/dist/js/materialize.min.js'
-import '../../App.css'
-
-
+import '../css/Principal.css'
 
 class Main extends Component {
-
-
-
-
     render() {
         return (
             <><div className="row ">

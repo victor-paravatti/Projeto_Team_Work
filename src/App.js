@@ -1,19 +1,14 @@
-import logo from './logo.svg'
-import './App.css'
-import './components/layout/NavBar'
-import Navabar from './components/layout/NavBar'
-import Header from './components/layout/Header'
-import Main from './components/layout/Main';
-import Footer from './components/layout/Footer'
+import {Routes, Route } from 'react-router-dom';
+import Principal from './components/views/Principal';
+import Cadastro from './components/views/Cadastro';
 
 function App() {
   return (
     <div className="App">
-      <Navabar/>
-      <Header/>
-      <Main/>
-      <Footer/>     
-
+        <Routes>
+          <Route path='/' element={<Principal />} />
+          <Route path='/Cadastro' element={<Cadastro />} />
+        </Routes>
     </div>
   );
 }
